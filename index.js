@@ -1,9 +1,7 @@
-function areaDelCuadrado(ladoDelCuadrado) {
-    const area = ladoDelCuadrado * ladoDelCuadrado;
-    return area
-}
+var perimetroDelCuadrado = (ladoDelCuadrado) => ladoDelCuadrado * 4;
+var areaDelCuadrado = (ladoDelCuadrado) => ladoDelCuadrado * ladoDelCuadrado;
 
-const perimetroDelCuadrado = ladoDelCuadrado => ladoDelCuadrado * 4;
+
 
 
 // const ladoDelCuadrado = 6;
