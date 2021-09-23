@@ -66,6 +66,8 @@
   border-radius: 12px;
   margin-bottom: 16px;
   margin-top: 8px;
+  outline: none;
+  text-align: center;
 }
 .operation-container__resultado{
   position: relative;
@@ -112,13 +114,20 @@
     flex-direction: column;
     padding: 0 24px 24px 24px;
   }
-  .button-container > button {
+  .button-container a {
+    display: block;
+    width: 100%;
+  }
+
+  .button-container  button {
     font-family: "Red Hat Display", sans-serif;
     height: 48px;
+    width: 100%;
     border-radius: 12px;
     margin-bottom: 4px;
     border: none;
     font-weight: 900;
+    cursor: pointer;
   }
   .button-container__payment {
     background-color: var(--Bright-blue);
