@@ -49,8 +49,9 @@
     line-height: 24px;
   }
   
-  .plan {
+  .operation-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-content: center;
     margin: 8px 24px 24px 24px;
@@ -58,7 +59,28 @@
     border-radius: 12px;
     background-color: var(--Very-pale-blue);
   }
-  
+  .operation-container input{
+  font-family: "Red Hat Display", sans-serif;
+  height: 32px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  border: 1px solid var(--Desaturated-blue);
+}
+.operation-container__resultado{
+  position: absolute;
+}
+
+  .operation-container__resultado span{
+    position: relative;
+    font-size: 12px;
+    top: -13px;
+    left: 15px;
+    border: 1px solid var(--Desaturated-blue);
+    border-radius: 8px;
+    padding: 2px 8px;
+    background-color: var(--Pale-blue);
+  }
   .plan:nth-child(3) {
     color: var(--a-color);
     font-weight: 900;
